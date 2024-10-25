@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="~/css/chat.css"/>
+</head>
+<body>
+<div class="container">
+    <div>
+        <span id="peopleOnlineCount"></span> people online
+    </div>
+    <h2>Chat Room</h2>
+    <div class="row">
+        <div class="col-label">Username</div>
+        <div class="col-input"><input type="text" id="usernameInput" placeholder="Enter your username"/></div>
+    </div>
+    <div class="row">
+        <div class="col-label">Room ID</div>
+        <div class="col-input"><input type="text" id="roomIdInput" placeholder="Enter room ID"/></div>
+    </div>
+    <div class="button-group">
+        <button class="button" id="enterRoomButton">Enter Room</button>
+        <button class="button" id="leaveRoomButton">Leave Room</button>
+    </div>
+    <div class="row" id="message">
+        <div class="col-label">Message</div>
+        <div class="col-input"><input type="text" id="messageInput" placeholder="Type your message..."/></div>
+    </div>
+    <div class="row">
+        <div class="col-input">
+            <button class="button" id="sendButton">Send Message</button>
+        </div>
+    </div>
+    <div class="chat-area">
+        <div class="chat-column">
+            <h3>Messages</h3>
+            <div class="chat-box">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+        <div class="chat-column">
+            <h3>People in Room</h3>
+            <div class="chat-box">
+                <ul id="peopleInRoom"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="chat-column">
+            <h3>Available Rooms</h3>
+            <div class="chat-box">
+                <ul id="roomsList"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\signalrmvc.exe
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\libman.json
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\signalrmvc.dll
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\signalrmvc.deps.json
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\signalrmvc.runtimeconfig.json
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\signalrmvc.pdb
+C:\Users\enise\source\repos\signalrmvc\signalrmvc\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
